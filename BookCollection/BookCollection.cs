@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BookCollection
 {
-    public partial class Form1 : Form
+    public partial class BookCollection : Form
     {
-        public Form1()
+        public BookCollection()
         {
             InitializeComponent();
         }
