@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace BookCollection
 {
-    public partial class BookCollection : Form
+    public partial class AuthorManager : Form
     {
-        public BookCollection()
+        public AuthorManager()
         {
             InitializeComponent();
-        }
-
-        private void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

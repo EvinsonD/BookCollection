@@ -52,10 +52,43 @@
     <Compile Include="BookCollection.Designer.cs">
       <DependentUpon>BookCollection.cs</DependentUpon>
     </Compile>
+    <Compile Include="AuthorManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorManager.Designer.cs">
+      <DependentUpon>AuthorManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookDetails.Designer.cs">
+      <DependentUpon>BookDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenreManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenreManager.Designer.cs">
+      <DependentUpon>GenreManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Save-LoadDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save-LoadDialog.Designer.cs">
+      <DependentUpon>Save-LoadDialog.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BookCollection.resx">
       <DependentUpon>BookCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorManager.resx">
+      <DependentUpon>AuthorManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookDetails.resx">
+      <DependentUpon>BookDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenreManager.resx">
+      <DependentUpon>GenreManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Save-LoadDialog.resx">
+      <DependentUpon>Save-LoadDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
