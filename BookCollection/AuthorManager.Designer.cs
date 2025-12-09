@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.lblAuthorName = new System.Windows.Forms.Label();
+            this.txtAuthorName = new System.Windows.Forms.TextBox();
             this.lblBirthdate = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnAddAuthor = new System.Windows.Forms.Button();
@@ -46,6 +47,13 @@
             this.lblAuthorName.Size = new System.Drawing.Size(128, 24);
             this.lblAuthorName.TabIndex = 0;
             this.lblAuthorName.Text = "Author Name:";
+            // 
+            // txtAuthorName
+            // 
+            this.txtAuthorName.Location = new System.Drawing.Point(208, 106);
+            this.txtAuthorName.Name = "txtAuthorName";
+            this.txtAuthorName.Size = new System.Drawing.Size(265, 26);
+            this.txtAuthorName.TabIndex = 1;
             // 
             // lblBirthdate
             // 
@@ -120,9 +128,10 @@
             this.Controls.Add(this.btnAddAuthor);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblBirthdate);
+            this.Controls.Add(this.txtAuthorName);
             this.Controls.Add(this.lblAuthorName);
             this.Name = "AuthorManager";
-            this.Text = "BookList";
+            this.Text = "Author Manager";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +140,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblAuthorName;
+        private System.Windows.Forms.TextBox txtAuthorName;
         private System.Windows.Forms.Label lblBirthdate;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnAddAuthor;
